@@ -1,0 +1,19 @@
+Scrapy Framework - The Big Picture
+
+
+Item object
+	- define data temple
+		- picture title
+		- url to download image
+
+
+Sprider object
+	- define how to travel inside domain
+	- define the way we extract data
+
+
+
+Pipeline object
+	- what we want to do after we extract data
+	- download image (after we have url)
+	- save data to database
